@@ -16,11 +16,22 @@ a{
   color: white;
   margin-left: 0;
   margin-right: 0;
+  height: 45px;
+}
+
+.navbar{
+  position: relative;
+  text-align: center;
+  padding: 1px;
+  background: #1abc9c;
+  color: white;
+  margin-top: auto;
 }
 
 h1 {
   position: relative;
   text-align: left;
+  padding-left: 15px;
 }
 
 ul {
