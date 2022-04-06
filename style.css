@@ -14,13 +14,12 @@ a{
   padding: 1px;
   background: #1abc9c;
   color: white;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
   margin-left: 0;
   margin-right: 0;
 }
 
 h1 {
+  position: relative;
   text-align: left;
 }
 
@@ -41,7 +40,12 @@ li:last-child {
 
 li a{
   color: white;
-  padding: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 6px;
+  margin-left: -7px;
+  margin-right: -7px;
 }
 
 li a:hover{
