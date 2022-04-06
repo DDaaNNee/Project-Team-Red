@@ -43,7 +43,7 @@ a{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0); backface-visibility: hidden;
     transform: translateZ(0);
-  background:#1B2030 url('./c2.jpg') 100% 0 no-repeat;
+  background:#1B2030 url('./Images/c2.jpg') 100% 0 no-repeat;
   background-size:100%;
   background-attachment:fixed;
   animation: grow 200s  linear 1ms infinite;
