@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+html,body{
+  margin:0;
+  height:100vh;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+a{
+  text-decoration:none
+}
+
+.quotes{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:300%;
+  min-height:400px;
+  max-height:100%;
+  min-width:300px;
+  color:#eee;
+}
+.quotes:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.quotes:before{
+  content:"";
+  width:100%;
+  height:300%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden;
+    transform: translateZ(0);
+  background:#1B2030 url('./c2.jpg') 100% 0 no-repeat;
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 200s  linear 1ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-1
+}
+.quotes a{
+  color:#eee
+}
+
+.info{
+  width:100%;
+  padding:15% 10% 0 10%;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+.info h4, .meta{
+  font-size:1em
+}
+.meta{
+  font-style:italic;
+}
+@keyframes grow{
+  0% { transform: scale(1) translateY(0px)}
+  50% { transform: scale(1.2) translateY(-400px)}
+}
