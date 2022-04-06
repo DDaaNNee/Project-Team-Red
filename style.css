@@ -32,7 +32,7 @@ ul {
 
 li {
   display: inline-block;
-  border-right: 1px solid #bbb;
+  margin: 5px;
 }
 
 li:last-child {
@@ -41,15 +41,15 @@ li:last-child {
 
 li a{
   color: white;
-  padding-left: 20px;
+  padding: 5px;
 }
 
 li a:hover{
-  background-color: #111;
+  background-color: #218f79;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #218f79;
 }
 
 .quotes{
