@@ -36,7 +36,7 @@ a{
   height: 45px;
   float: left;
   margin: auto; /*Check border for div*/
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .div2 { grid-area: 1 / 2 / 2 / 3;
   position: relative;
@@ -53,7 +53,7 @@ a{
   height: 45px;
   float: right;
   margin: auto;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .navbar{
