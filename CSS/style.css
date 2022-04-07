@@ -155,9 +155,10 @@ li a:hover{
 }
 /* head.css  */
 
-input[type=text], select, textarea, message {
+.contact-name-input, .contact-email-input, .contact-message-input {
+  text-align: left;
   width: 95%;
-  padding: 12px;
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -167,16 +168,79 @@ input[type=text], select, textarea, message {
 }
 
 
-input[type=submit] {
+#contact-submit{
+  width: 100%;
   background-color: #1abc9c;
   color: white;
   border: none;
   border-radius: 2px;
   cursor: pointer;
   padding: 20px 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
 input[type=submit]:hover {
   background-color: #218f79;
+<<<<<<< Updated upstream
+=======
+}
+
+/*log in page */
+
+.log-in-form {
+  padding: 10vh 0;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  min-width: 420px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: 80%;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.form-body .form-input {
+  display: flex;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  border: 0.5px solid #D3D3D3;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-body .form-input i {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.form-body .form-input input {
+  width: 95%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.form-body .form-input input::placeholder {
+  font-size: 1rem;
+>>>>>>> Stashed changes
 }
 
