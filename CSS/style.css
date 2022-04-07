@@ -155,36 +155,67 @@ li a:hover{
 }
 /* head.css  */
 
-.contact-name-input, .contact-email-input, .contact-message-input {
-  text-align: left;
-  width: 95%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+label[for=contact-name-label]{
+  margin-left: 20px;
+  display: block;
+  text-align:left;
 }
 
+label[for=contact-email-label]{
+  margin-left: 20px;
+  display: block;
+  text-align:left;
+}
 
-#contact-submit{
+label[for=contact-message-label]{
+  margin-left: 20px;
+  display: block;
+  text-align:left;
+}
+
+.contact-form{
   width: 100%;
+  max-width: 750px;
+  margin: auto;
+}
+
+#contact-name-input, #contact-email-input{
+  float: center;
+  height: 40px;
+  width: 95%;
+  border: 2px solid #1abc9c;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#contact-message-input{
+  float: center;
+  height: 100px;
+  width: 95%;
+  text-align: left;
+  border: 2px solid #1abc9c;
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#contact-submit-button{
+  float: center;
+  width: 95%;
   background-color: #1abc9c;
   color: white;
-  border: none;
   border-radius: 2px;
   cursor: pointer;
   padding: 20px 100px;
-  border: 1px solid #ccc;
+  border: 2px solid #218f79;
   border-radius: 10px;
 }
 
-input[type=submit]:hover {
+#contact-submit-button:hover{
   background-color: #218f79;
-<<<<<<< Updated upstream
-=======
 }
+
 
 /*log in page */
 
@@ -243,4 +274,3 @@ input[type=submit]:hover {
   font-size: 1rem;
 >>>>>>> Stashed changes
 }
-
