@@ -101,7 +101,8 @@ a{
   text-align: center;
   color: white;
   margin-top: 49px;
-  height: 100%;
+  width: 200%;
+  margin-left: -50%;
 }
 
 .navbar-ul{
@@ -139,6 +140,23 @@ li a:hover{
 
 .active {
   background-color: #218f79;
+}
+
+.login-text-button:hover{
+    border: 1px solid white;
+    background-color: #218f79;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.chill-out-logo-text:hover{
+  border: 1px solid white;
+  background-color: #218f79;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
 }
 
 /*Home page */
