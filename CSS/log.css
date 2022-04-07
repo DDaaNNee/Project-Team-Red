@@ -54,7 +54,6 @@ a{
   list-style-type: none;
   margin-top: -23px;
 }
-
 }
 
 @media only screen and (max-width: 660px) {
@@ -65,7 +64,8 @@ a{
   margin: auto;
   margin-top: -10px;
   margin-left: 0px;
-  width: 5px;
+  margin-bottom: 0px;
+  width: 90px;
 }
 
 
@@ -92,6 +92,8 @@ a{
   margin-top: -23px;
 }
 }
+
+
 
 h1 {
   position: relative;
@@ -131,6 +133,7 @@ li a:hover{
 .active {
   background-color: #218f79;
 }
+
 /*logIn page*/
 
 .log-in-form {
