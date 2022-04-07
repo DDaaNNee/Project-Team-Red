@@ -8,6 +8,7 @@ a{
   text-decoration:none
 }
 
+/* Header & Navbar */
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr) repeat(2, 0fr);
@@ -156,26 +157,26 @@ li a:hover{
 /* head.css  */
 
 label[for=contact-name-label]{
-  margin-left: 20px;
+  margin-left: 15px;
   display: block;
   text-align:left;
 }
 
 label[for=contact-email-label]{
-  margin-left: 20px;
+  margin-left: 15px;
   display: block;
   text-align:left;
 }
 
 label[for=contact-message-label]{
-  margin-left: 20px;
+  margin-left: 15px;
   display: block;
   text-align:left;
 }
 
 .contact-form{
   width: 100%;
-  max-width: 750px;
+  max-width: 500px;
   margin: auto;
 }
 
