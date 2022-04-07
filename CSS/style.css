@@ -153,8 +153,8 @@ li a:hover{
   0% { transform: scale(1) translateY(0px)}
   50% { transform: scale(1.2) translateY(-400px)}
 }
+/* head.css  */
 
-<<<<<<< HEAD:CSS/style.css
 input[type=text], select, textarea, message {
   width: 95%;
   padding: 12px;
@@ -178,7 +178,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #218f79;
-=======
+
 /*log in page */
 
 .log-in-form {
@@ -283,5 +283,4 @@ input[type=submit]:hover {
 
 .sign-up-link a:hover {
   text-decoration: underline;
->>>>>>> 915a6a3c08fd45d2b2e304cfa2afb9a525d97aab:style.css
 }
