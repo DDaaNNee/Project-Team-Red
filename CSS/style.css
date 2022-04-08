@@ -198,8 +198,8 @@ li a:hover{
   background:#1B2030 url('../Images/c2.jpg') 100% 0 no-repeat;
   background-size:100%;
   background-attachment:fixed;
-  animation: grow 200s  linear 1ms infinite;
-  transition:all 0.4s ease-in-out;
+  /*animation: grow 200s  linear 1ms infinite;
+  transition:all 0.4s ease-in-out;*/
   z-index:-1
 }
 .quotes a{
@@ -395,7 +395,8 @@ label[for=contact-message-label]{
   display: inline-block;
   margin-bottom: 1em;
   width: 600px;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
+  opacity: 1;
 }
 
 .flip > .front,
@@ -420,7 +421,8 @@ label[for=contact-message-label]{
   display: inline-block;
   margin-bottom: 1em;
   width: 500px;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
+  opacity: 1;
   padding: 0px;
 }
 
@@ -446,7 +448,8 @@ label[for=contact-message-label]{
   display: inline-block;
   margin-bottom: 1em;
   width: 450px;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
+  opacity: 1;
   padding: 0px;
 }
 
