@@ -350,7 +350,6 @@ label[for=contact-message-label]{
 
 /* cards */
 
-
 .flip {
   position: relative;
 }
@@ -390,14 +389,16 @@ label[for=contact-message-label]{
   transform: rotateX(0deg);
 }
 
+@media only screen and (min-width: 750px) {
+
 .flip {
   position: relative;
   display: inline-block;
-  margin-right: 10px;
   margin-bottom: 1em;
-  width: 400px;
+  width: 600px;
   opacity: 0.8;
 }
+
 .flip > .front,
 .flip > .back {
   display: block;
@@ -405,11 +406,67 @@ label[for=contact-message-label]{
   width: inherit;
   background-size: cover !important;
   background-position: center !important;
-  height: 220px;
+  height: 350px;
   padding: 1em 2em;
   background: #313131;
   border-radius: 10px;
 }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+.flip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+  width: 500px;
+  opacity: 0.8;
+  padding: 0px;
+}
+
+.flip > .front,
+.flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 350px;
+  padding: 1em 2em;
+  background: #313131;
+  border-radius: 10px;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+.flip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+  width: 450px;
+  opacity: 0.8;
+  padding: 0px;
+}
+
+.flip > .front,
+.flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 300px;
+  padding: 1em 2em;
+  background: #313131;
+  border-radius: 10px;
+}
+
+}
+
+
 .flip > .front p,
 .flip > .back p {
   font-size: 0.9125rem;
