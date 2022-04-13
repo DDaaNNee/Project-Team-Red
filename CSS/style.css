@@ -42,7 +42,24 @@ header{
 .logo{
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo a{
+  color: white;
+}
+
+.login-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.login-button a{
   color: white;
 }
 
@@ -117,6 +134,7 @@ navbar a:hover{
   border-radius: 5px;
   background-color: #218f79;
   padding: 2px;
+  padding-left: 0;
 }
 
 .navbar-toggler:checked ~ navbar{
@@ -266,10 +284,6 @@ h1 {
 
 
 
-
-
-
-
 /*Home page */
 
 .background{
@@ -277,7 +291,16 @@ h1 {
   height: 150vh;
   background-blend-mode: cover;
   display: grid;
+  color: white;
 
+}
+
+.background h2{
+    text-shadow: 1px 1px 3px black;
+}
+
+.background h1{
+    text-shadow: 1px 1px 3px black;
 }
 
 
