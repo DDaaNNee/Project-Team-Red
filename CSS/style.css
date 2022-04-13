@@ -9,12 +9,13 @@
 
 html,body{
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
   height: 100%;
+  background: #1abc9c;
 }
 
 html {
@@ -29,9 +30,108 @@ a{
 }
 
 /* Header & Navbar */
+header{
+  background: #1abc9c;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 3em;
+  z-index: 9;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.navbar-toggler{
+  display: none;
+  position: absolute;
+}
+
+.navbar-toggler-label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-label span,
+.navbar-toggler-label span::before,
+.navbar-toggler-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.navbar-toggler-label span::before,
+.navbar-toggler-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.navbar-toggler-label span::before {
+  bottom: 7px;
+}
+
+.navbar-toggler-label span::after {
+  top: 7px;
+}
+
+navbar{
+  position: absolute;
+  background: #1abc9c;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+navbar li{
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+navbar a:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding: 2px;
+}
+
+.navbar-toggler:checked ~ navbar{
+  display: block;
+}
+
+
+
+
+
+
+/*
 .parent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr) repeat(2, 0fr);
+  grid-template-columns: repeat(3, 1fr) repeat(2, 0fr);;
   grid-template-rows: repeat(10, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -132,15 +232,6 @@ a{
   border-radius: 15px;
 }
 
-
-
-h1 {
-  position: relative;
-  text-align: left;
-  padding-left: 15px;
-  margin-top: 12px;
-}
-
 li {
   display: inline-block;
   margin: -2px;
@@ -159,11 +250,36 @@ li a:hover{
   background-color: #218f79;
 }
 
+h1 {
+  position: relative;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 12px;
+}
+
+
 .active {
   background-color: #218f79;
 }
 
+*/
+
+
+
+
+
+
+
 /*Home page */
+
+.background{
+  background:#1B2030 url('../Images/c2.jpg') 100% 0 no-repeat;
+  height: 150vh;
+  background-blend-mode: cover;
+  display: grid;
+
+}
+
 
 .quotes{
   position:relative;
