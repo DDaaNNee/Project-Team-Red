@@ -48,6 +48,8 @@ header h1{
   text-shadow: 2px 2px 2px #218f79;
 }
 
+/* Mobile resolution */
+@media only screen and (max-width: 800px) {
 .logo{
   grid-area: 1 / 2 / 2 / 6;
   display: flex;
@@ -168,7 +170,94 @@ navbar a:hover{
   display: block;
 }
 
+}
 
+/* Desktop resolution */
+@media only screen and (min-width: 800px) {
+.logo{
+  /*grid-area: 1 / 2 / 2 / 6;*/
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  padding-top: 11px;
+  color: white;
+}
+
+.logo a{
+  color: white;
+}
+
+.login-button{
+  grid-area: 1 / 6 / 2 / 7;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 13px;
+  padding-right: 8px;
+  color: white;
+  font-size: 26px;
+}
+
+.login-button a{
+  color: white;
+}
+
+.login-button a:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding: 2px;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.navbar-toggler{
+  display: none;
+}
+
+/*.navbar-toggler-label:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding-right: 0;
+  padding-top: 0;
+} */
+
+navbar{
+  grid-area: 1 / 2 / 2 / 6;
+  position: absolute;
+  background: #1abc9c;
+  text-align: center;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+navbar li{
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 2px #218f79;
+}
+
+navbar a:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding: 2px;
+  padding-left: 0;
+}
+
+
+}
 
 
 
