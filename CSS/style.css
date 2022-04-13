@@ -31,6 +31,11 @@ a{
 
 /* Header & Navbar */
 header{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   background: #1abc9c;
   text-align: center;
   position: fixed;
@@ -40,11 +45,11 @@ header{
 }
 
 .logo{
+  grid-area: 1 / 2 / 2 / 6;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 10px;
   color: white;
-  text-decoration: none;
 }
 
 .logo a{
@@ -52,15 +57,25 @@ header{
 }
 
 .login-button{
+  grid-area: 1 / 6 / 2 / 7;
   display: flex;
-  justify-content: center;
-  padding-top: 15px;
+  justify-content: flex-end;
+  padding-top: 12px;
+  padding-right: 5px;
   color: white;
-  text-decoration: none;
+  font-size: 26px;
 }
 
 .login-button a{
   color: white;
+}
+
+.login-button a:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding: 2px;
+  padding-right: 0;
+  padding-top: 0;
 }
 
 .navbar-toggler{
@@ -84,7 +99,7 @@ header{
   display: block;
   background: white;
   height: 2px;
-  width: 2em;
+  width: 3em;
   border-radius: 2px;
   position: relative;
 }
@@ -101,6 +116,13 @@ header{
 
 .navbar-toggler-label span::after {
   top: 7px;
+}
+
+.navbar-toggler-label:hover{
+  border-radius: 5px;
+  background-color: #218f79;
+  padding-right: 0;
+  padding-top: 0;
 }
 
 navbar{
