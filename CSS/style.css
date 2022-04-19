@@ -291,6 +291,7 @@ navbar a:hover{
 }
 
 .background h1{
+    /*text-shadow: 2px 2px 2px #218f79;*/
     text-shadow: 1px 1px 3px black;
 }
 
@@ -504,6 +505,10 @@ label[for=contact-message-label]{
   box-shadow: 1px 1px 10px grey;
 }
 
+.form-container h1{
+  text-shadow: 2px 2px 2px #218f79;
+}
+
 .form-body {
   display: flex;
   flex-direction: column;
@@ -528,9 +533,10 @@ label[for=contact-message-label]{
 }
 
 .form-body .form-input input {
-  width: 95%;
+  width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 0.5rem;
   border: none;
   font-size: 1rem;
   overflow: hidden;
@@ -560,8 +566,9 @@ label[for=contact-message-label]{
   font-weight: 600;
   color: #fff;
   width: 100%;
-  transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  transition: color 0.1s ease-in-out, background 0.1s ease-in-out;
   cursor: pointer;
+  text-shadow: 2px 2px 2px #218f79;
 }
 
 .button input:focus {
@@ -569,8 +576,9 @@ label[for=contact-message-label]{
 }
 
 .form-btn:hover {
-  color: black;
-  background: #218f79;
+  /*color: black;
+  background: #218f79;*/
+  background-color: #218f79;
 }
 
 .sign-up-link {
