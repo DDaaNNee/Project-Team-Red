@@ -278,11 +278,11 @@ navbar a:hover{
 /*Home page */
 
 .background{
-  background:#1B2030 url('../Images/c2.jpg') 100% 0 no-repeat;
-  height: 150vh;
-  background-blend-mode: cover;
-  display: grid;
-  color: white;
+  background: url('../Images/c2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
