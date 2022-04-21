@@ -112,8 +112,10 @@ header h1{
   padding: 10px 20px;
 }
 
+
 .navbar-toggler-label:hover{
   background-color: #218f79;
+  cursor: pointer;
 
 }
 
