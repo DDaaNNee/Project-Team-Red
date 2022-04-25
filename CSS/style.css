@@ -137,6 +137,7 @@ header h1{
 .navbar-toggler-label:hover{
   background-color: #218f79;
   cursor: pointer;
+  border-bottom-left-radius: 15px;
 
 }
 
@@ -190,7 +191,9 @@ navbar li{
   margin-left: 0em;
   margin-top: 0.2em;
 }
-
+navbar li:first-child{
+  margin-top: 3em;
+}
 navbar li:last-child{
   margin-bottom: 0.5em;
 }
@@ -304,7 +307,7 @@ navbar a{
   text-shadow: 2px 2px 2px #218f79;
   padding-top: 16px;
   padding-left: 16px;
-  padding-bottom: 13px;
+  padding-bottom: 12px;
   padding-right: 16px;
 }
 
@@ -342,6 +345,10 @@ navbar a:hover{
 .background h1{
     /*text-shadow: 2px 2px 2px #218f79;*/
     text-shadow: 1px 1px 3px black;
+}
+
+.background h3{
+  text-shadow: 1px 1px 3px black;
 }
 
 
@@ -784,7 +791,6 @@ label[for=contact-message-label]{
   text-align: center;
 }
 
-
 /* Footer */
 
 footer{
@@ -797,7 +803,6 @@ footer{
   text-align: center;
   position: relative;
   width: 100%;
-  height: 10em;
   z-index: 9;
   bottom: 0;
   padding-top: 12px;
