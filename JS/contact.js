@@ -33,7 +33,7 @@ const saveMessage = (name, email, messsage) => {
       name : name,
       email : email,
       messsage : message,
-    })
+    });
 };
 
 const getElementVal = (id) => {
