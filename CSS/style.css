@@ -169,7 +169,7 @@ navbar{
   position: absolute;
   background: #1abc9c;
   text-align: left;
-  top: 100%;
+  top: 0;
   left: 0;
   width: 100%;
   display: none;
@@ -324,8 +324,8 @@ navbar a:hover{
   color: white;
   /*background: url('../Images/Background/c2.jpg') no-repeat center center fixed;*/
   /*background:#dddddd;*/
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 0px;
+  padding-bottom: 20px;
   /*background-image: linear-gradient(to bottom, #218f79, #209a82, #1ea58a, #1db193, #1abc9c);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -420,7 +420,7 @@ navbar a:hover{
   grid-row-gap: 0px;*/
 
   width:100%;
-  padding:100px 10% 0 10%;
+  padding-top: 70px;
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
 }
