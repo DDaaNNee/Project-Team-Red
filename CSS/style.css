@@ -15,7 +15,7 @@ html,body{
 
 body{
   height: 100%;
-  background: #1abc9c;
+  background: #dddddd;
 }
 
 html {
@@ -42,6 +42,13 @@ header{
   width: 100%;
   height: 3em;
   z-index: 9;
+
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom: 1px solid #dddd;
+
+
 }
 
 header h1{
@@ -274,6 +281,7 @@ navbar{
   display: flex;
   justify-content: center;
   width: 100%;
+
 }
 
 navbar ul{
@@ -315,7 +323,7 @@ navbar a:hover{
   height: 100%;
   color: white;
   /*background: url('../Images/Background/c2.jpg') no-repeat center center fixed;*/
-  background:#dddddd;
+  /*background:#dddddd;*/
   padding-top: 5%;
   padding-bottom: 5%;
   /*background-image: linear-gradient(to bottom, #218f79, #209a82, #1ea58a, #1db193, #1abc9c);*/
@@ -794,6 +802,10 @@ footer{
   bottom: 0;
   padding-top: 12px;
 
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top: 1px solid #dddd;
   }
 
   footer h2{
@@ -867,7 +879,7 @@ footer{
   float:left;
   overflow:hidden;
   visibility:hidden;
- 
+
   -webkit-transform: rotate(-60deg) skewY(30deg);
   -ms-transform: rotate(-60deg) skewY(30deg);
   transform: rotate(-60deg) skewY(30deg);
@@ -881,7 +893,7 @@ footer{
 #categories li:nth-child(6n+4), #categories li:nth-child(6n+5), #categories li:nth-child(6n+6) {
 	margin-top: -6.9285714285%;
   margin-bottom: -6.9285714285%;
-  
+
   -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
   -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
   transform: translateX(50%) rotate(-60deg) skewY(30deg);
@@ -899,25 +911,25 @@ footer{
   text-align:center;
   color:#fff;
   overflow:hidden;
-  
+
   -webkit-transform: skewY(-30deg) rotate(60deg);
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
-  
+
 }
 
 /* HEX CONTENT */
 #categories li img{
   left:-100%; right:-100%;
   width: auto; height:100%;
-  margin:0 auto;   
+  margin:0 auto;
 }
 
 #categories div h1, #categories div p{
   width:100%;
   padding:0 5%;
   background-color:#218f79; background-color: #218f79c7;
-  
+
   -webkit-transition: top .4s ease-out, bottom .4s ease-out, .4s padding .4s ease-out;
   -ms-transition: top .4s ease-out, bottom .4s ease-out, .4s padding .4s ease-out;
   transition: top .4s ease-out, bottom .4s ease-out, .4s padding .4s ease-out;
@@ -989,18 +1001,18 @@ footer{
 }
 
 .semi-transparent-button {
-   display: block; 
-   box-sizing: border-box; 
-   margin-left: 15%; 
-   padding: 12px; 
-   width: 80%; 
-   max-width: 200px; 
+   display: block;
+   box-sizing: border-box;
+   margin-left: 15%;
+   padding: 12px;
+   width: 80%;
+   max-width: 200px;
    background: #fff; /* fallback color for old browsers */
-   background: rgba(255, 255, 255, 0.5); 
-   border-radius: 8px; 
-   color: #fff; 
-   text-align: center; 
-   text-decoration: none; 
-   letter-spacing: 1px; 
+   background: rgba(255, 255, 255, 0.5);
+   border-radius: 8px;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: 1px;
    transition: all 0.3s ease-out;
    }
