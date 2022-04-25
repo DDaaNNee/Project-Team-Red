@@ -285,7 +285,9 @@ navbar a:hover{
   height: 100%;
   color: white;
   /*background: url('../Images/Background/c2.jpg') no-repeat center center fixed;*/
-  background:#218f79;
+  background:#dddddd;
+  padding-top: 5%;
+  padding-bottom: 5%;
   /*background-image: linear-gradient(to bottom, #218f79, #209a82, #1ea58a, #1db193, #1abc9c);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
