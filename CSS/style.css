@@ -865,6 +865,7 @@ footer{
   overflow:hidden;
   width:90%;
   margin:0 auto;
+    padding-top: 50px;
 }
 .clr:after{
   content:"";
