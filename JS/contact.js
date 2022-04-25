@@ -22,7 +22,19 @@ function submitForm(e){
   var message = getElementVal('contact-message-input');
 
   console.log(name, email, message);
+
+  saveMessage(name, email, message);
 }
+
+const saveMessage = (name, email, messsage) => {
+    var newContactForm = contactFormDB.push();
+
+    newContactForm.set({
+      name : name,
+      email : email,
+      messsage : message,
+    })
+};
 
 const getElementVal = (id) => {
   return document.getElementById(id).value;
