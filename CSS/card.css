@@ -11,18 +11,26 @@ hr{
   max-width: 1000px;
   display: inline-block;
   justify-content: center;
-}
-.w3-margin{margin:16px!important}
-.w3-margin-top{margin-top:16px!important}
-.w3-margin-bottom{margin-bottom:16px!important}
-
-/* Colors */
-.w3-white{
   color:#000!important;
-  background-color:#fff!important}
+  background-color:#fff!important;
+  margin-top:16px!important;
+  margin-bottom:16px!important;
+}
 
 .media-content{
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     max-width: 1000px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .w3-card{
+      box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+      justify-content: center;
+      width: 100%;
+      margin-left: 200px;
+      margin-right: 200px;
+
+    }
   }
