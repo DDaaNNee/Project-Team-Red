@@ -1029,11 +1029,10 @@ footer{
 
    hr{
      border:0;
-     border-top:1px solid #eee;
-     margin-bottom: 5px;
+     border-top:1px solid #dbdbdb;
    }
    .w3-card{
-     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+     box-shadow:0 4px 5px 0 rgba(0,0,0,0.16),0 4px 10px 0 rgba(0,0,0,0.12);
      max-width: 750px;
      display: inline-block;
      justify-content: center;
@@ -1044,11 +1043,17 @@ footer{
      border-radius: 10px;
    }
 
+   .w3-card a{
+     color: black;
+   }
+
    .w3-card p{
+     font-size: 20px;
      margin-top: 20px;
      margin-bottom: 20px;
    }
    .w3-card h5{
+     font-size: 15px;
      padding-bottom: 20px;
      padding-top: 20px;
 
@@ -1059,6 +1064,8 @@ footer{
        border-radius: 10px;
        max-width: 1000px;
        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+       margin-top:10px;
+       margin-bottom:10px
      }
 
      @media only screen and (min-width: 1500px) {
