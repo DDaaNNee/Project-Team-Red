@@ -336,6 +336,7 @@ navbar a:hover{
   background-size: cover;
   background-blend-mode: cover;
   min-height: 1200px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
 }
 
 .background h2{
