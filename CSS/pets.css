@@ -404,7 +404,7 @@ footer{
     grid-auto-flow: row dense;
   }
 
-  .item {
+  .item_pets {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -423,25 +423,25 @@ footer{
     cursor: pointer;
     counter-increment: item-counter;
   }
-  .item:nth-of-type(2n) {
+  .item_pets:nth-of-type(2n) {
     background-image: url("../Images/Animals/image22.jpg");
   }
-  .item:nth-of-type(3n) {
+  .item_pets:nth-of-type(3n) {
     background-image: url("../Images/Animals/image20.jpg");
   }
-  .item:nth-of-type(4n) {
+  .item_pets:nth-of-type(4n) {
     background-image: url("../Images/Animals/image21.jpg");
   }
-  .item:nth-of-type(5n) {
+  .item_pets:nth-of-type(5n) {
     background-image: url("../Images/Animals/image88.jpg");
   }
-  .item:nth-of-type(6n) {
+  .item_pets:nth-of-type(6n) {
     background-image: url("../Images/Animals/image22.jpg");
   }
-  .item:nth-of-type(7n) {
+  .item_pets:nth-of-type(7n) {
     background-image: url("../Images/Animals/image18.jpg");
   }
-  .item:after {
+  .item_pets:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -450,28 +450,28 @@ footer{
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out;
   }
-  .item:hover {
+  .item_pets:hover {
     transform: scale(1.05);
   }
-  .item:hover:after {
+  .item_pets:hover:after {
     opacity: 0;
   }
-  .item--medium {
+  .item--medium_pets {
     grid-row-end: span 2;
   }
-  .item--large {
+  .item--large_pets {
     grid-row-end: span 3;
   }
-  .item--full {
+  .item--full_pets {
     grid-column-end: auto;
   }
   @media screen and (min-width: 768px) {
-    .item--full {
+    .item--full_pets {
       grid-column: 1/-1;
       grid-row-end: span 2;
     }
   }
-  .item__details {
+  .item__details_pets {
     position: relative;
     z-index: 1;
     padding: 15px;
@@ -481,7 +481,7 @@ footer{
     letter-spacing: 1px;
     color: #828282;
   }
-  .item__details:before {
+  .item__details_pets:before {
     content: counter(item-counter);
     font-weight: bold;
     font-size: 1.1rem;
