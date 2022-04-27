@@ -564,7 +564,7 @@ footer{
 }
 #categories div h1, #categories div p{
   width:100%;
-  padding:0 5%;
+  padding:0 0%;
   background-color:#218f79; background-color: #218f79c7;
 
   -webkit-transition: top .4s ease-out, bottom .4s ease-out, .4s padding .4s ease-out;
@@ -634,12 +634,13 @@ footer{
 #fork:hover:before {
   transform: translateX(0) skewX(-45deg);
 }
+
 .semi-transparent-button {
    display: block;
-   box-sizing: border-box;
-   margin-left: 15%;
-   margin-right: 15%;
-   padding: 10px;
+   padding: 15px;
+   padding-left: 40%;
+   padding-right: 50%;
+   margin-left: 5%;
    width: 100%;
    max-width: 200px;
    background: #fff; /* fallback color for old browsers */
@@ -651,7 +652,6 @@ footer{
    letter-spacing: 1px;
    transition: all 0.3s ease-out;
    }
-
 
    /* New Cards */
 
