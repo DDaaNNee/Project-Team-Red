@@ -1021,35 +1021,38 @@ footer{
      display: inline-block;
      justify-content: center;
      color:#000!important;
-     background-color:#fff!important;
+     /*background-color:#fff!important;*/
+     background-color: #1abc9c;
      margin-top:16px!important;
      margin-bottom:16px!important;
      border-radius: 10px;
+     text-shadow: 1px 1px 2px black;
    }
 
    .w3-card a{
-     color: black;
+     color: white;
    }
 
    .w3-card p{
      font-size: 20px;
      margin-top: 20px;
      margin-bottom: 20px;
+     color: white;
    }
    .w3-card h5{
      font-size: 15px;
      padding-bottom: 20px;
      padding-top: 20px;
-
+     color: white;
    }
 
    .media-content{
-       width: 90%;
+       width: 100%;
        border-radius: 10px;
        max-width: 1000px;
        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-       margin-top:10px;
-       margin-bottom:10px
+       /*margin-top:10px;*/
+       /*margin-bottom:10px*7
      }
 
      @media only screen and (min-width: 1300px) {
