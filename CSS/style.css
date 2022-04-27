@@ -743,9 +743,8 @@ footer{
 .about-section h5{
   font-size: 20px;
   margin-top: 15px;
-  margin-left: 15%;
-  margin-right: 15%;
-  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .about-section {
@@ -770,9 +769,16 @@ hr{
   border-style: inset;
   border-width: 1px;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .column {
     width: 100%;
     display: block;
+  }
+
+  .about-section h5{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
